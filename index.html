@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>portfolio website</title>
+</head>
+
+<body>
+    <header class="header">
+        <a href="#" class="logo"> Portfolio.</a>
+        <nav class="navbar">
+            <a href="#home"  style="--i:1;" class="active">Home</a>
+            <a href="#about"  style="--i:2;">About</a>
+            <a href="#Skills"  style="--i:3;">Skills</a>
+            <a href="#Portfolio"  style="--i:4;">Portfolio</a>
+            
+        </nav>
+        
+    </header>
+    <section class="home" id="home">
+        <div class="home-sci">
+            <a href="#"><i class='bx bx-phone'></i></a>
+            <a href="#"><i class='bx bxl-gmail'></i></a>
+            <a href="#"><i class='bx bxl-github'></i></a>
+            <a href="#"><i class='bx bxl-linkedin-square'></i></a>
+        </div>
+
+        <div class="home-content">
+         <h1>Je suis <span> Benjamin Arfi</span></h1>
+            <h3>Etudiant à la plateforme  Bachelor IT en developpement logiciel </h3>
+            <br>
+            <p>Passionné par le développement logiciel je suis en reconversion professionnelle 
+            <br>
+            Je recherche une alternance pour enfin travailler dans le domaine qui me passionne 
+            </p>
+            <a href="cv.html" class="btn">Affichez mon cv</a>
+        </div>
+
+        <div class="home-img">
+            <div class="glowing-circle">
+                <span></span>
+                <span></span>
+                <div class="image">
+                    <img src="images/imagecv.jpg" alt="mon image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <div class="home-img">
+                <div class="glowing-circle">
+                    <span></span>
+                    <span></span>
+                    <div class="image">
+                        <img src="images/imagecv.jpg" alt="mon image">
+                    </div>
+                </div>
+            </div>
+        <div class="about-content">
+            <h2 class="heaing">About <span>Me</span></h2>
+            <h3>Etudiant à la plateforme  Bachelor IT en developpement logiciel</h3>
+            <br>
+            <p>Passionné par le développement logiciel je suis en reconversion professionnelle 
+            <br>
+            Je recherche une alternance pour enfin travailler dans le domaine qui me passionne 
+            </p>
+        <a href="#" class="btn">Read More</a>
+        </div>
+
+        </div>
+    </section>
+
+    <!-- Skills section design -->
+    <section class="Skills" id="Skills">
+        <h2 class="heading">Skills</h2>
+        <div class="skills-container">
+            <div class="skills-box">
+                <img src="images/python.jpeg" alt="logo python">
+            </div>
+            
+            <div class="skills-box">
+                <img src="images/html5.png" alt="logo html">
+            </div>
+            
+            <div class="skills-box">
+                <img src="images/csss.png" alt="logo css">
+            </div>
+                
+            <div class="skills-box">
+                <img src="images/mysql.png" alt="logo my SQL">
+            </div>
+            
+            <div class="skills-box">
+                <img src="images/figma.png" alt="">
+            </div>
+            
+            <div class="skills-box">
+                <img src="images/plesk.png" alt="logo  de plesk">
+            </div>
+        </div>
+    </section>
+
+    <!-- portfolio section -->
+    <section class="Portfolio" id="Portfolio">
+        <h2 class="heading">Latest <span>Project</span></h2>
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="images/pokemon.jpeg" alt="image de pokemon">
+                <div class="portfolio-layer">
+                    <h4>Pokemon</h4>
+                    <p>Création du jeu  en Python(poo) avec creation de classe et combat entre deux pokemon 
+                        avec une interface graphique Tkinter</p>
+                    <a href="#"><i class='bx bxl-python'></i></a>
+                </div>
+                
+            </div>
+
+            <div class="portfolio-box">
+                <img src="images/gestion de stock.jpeg" alt="image de gestion de stock">
+                <div class="portfolio-layer">
+                    <h4>Gestion de stock</h4>
+                    <p>Utilisation de SQL et creation de base de donnée puis connection au Python et foctionnalité d'ajouter, de modifier,supprimer,importer en csv un produit et de filtrer dans la liste de produit ainssi que
+                        création d'interface graphique  Tkinter</p>
+                    <a href="#"><i class='bx bxs-data'></i></a>
+                </div>
+                
+            </div>
+
+            <div class="portfolio-box">
+                <img src="images/tic tac toe.jpeg" alt="image de tic tac toe">
+                <div class="portfolio-layer">
+                    <h4>Tic-Tac-Toe</h4>
+                    <p>Création du jeu  en Python ainssi que du mode contre l'ordinateur niveau facile et dificile interface graphique en tkinter</p>
+                    <a href="#"><i class='bx bxl-python'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="images/horloge.jpeg" alt="image d'une horloge">
+                <div class="portfolio-layer">
+                    <h4>Horloge</h4>
+                    <p>Création d'une horloge en Python qui affiche en format 24h ou 12h puis possibilité de mettre une alarme  </p>
+                    <a href="#"><i class='bx bxl-python'></i></a>
+                </div>
+                
+            </div>
+
+            <div class="portfolio-box">
+                <img src="images/pasword.jpeg" alt="image de pasword">
+                <div class="portfolio-layer">
+                    <h4>Pasword</h4>
+                    <p>Création d'un mot de passe en python qui dois etre securise qui cripte le mot de passe avec sha255 et qui l'envoie sur une base de donnée</p>
+                    <a href="#"><i class='bx bxl-python'></i></a>
+                </div>
+                
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- footer design -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Portfolio Benjamin Arfi | 2023 </p>
+        </div>
+        <div class="footer-IconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+
+    <!-- custom js -->
+    <script src="js/script.js"></script>
+
+</body>
+</html>
